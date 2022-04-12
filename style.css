@@ -1,0 +1,90 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.section-links {
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    background-color: #fdeff9;
+}
+.contenedor-img-perfil {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-img-perfil img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contenedor-img-perfil h1 {
+    font-weight: 700;
+    color: #38383d;
+}
+.contenedor-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fav-btn {
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 120px;
+height: 30px;
+font-size: 16px;
+color: #fdeff9;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+    border: none;
+    text-decoration: none;
+    padding-top: 12px;
+    text-align: center;
+    margin: 12px;
+}
+.fav-btn:hover {
+    background: #333399;
+    border: 1px solid ;
+    transition: 0.5s;
+}
+.contenedor-links h2 {
+    color: #38383d;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.fav-btn-2 {
+    background: #A770EF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 120px;
+height: 30px;
+font-size: 16px;
+color: #fdeff9;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+    border: none;
+    text-decoration: none;
+    padding-top: 12px;
+    text-align: center;
+    margin: 12px;
+}
+footer {
+    background-color: #fdeff9;
+    height: 50px;
+    margin: 0;
+    width: 100%;
+}
+footer h5 {
+    margin: 0 auto;
+    text-align: center;
+    color: #38383d;
+}
+footer a {
+    color: #ff00cc;
+
+}
