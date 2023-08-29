@@ -6,7 +6,7 @@ body {
 .section-links {
     width: 100%;
     min-height: 100vh;
-    background-color: #fdeff9;
+    background-color: #fff;
 }
 .contenedor-img-perfil {
     width: 100%;
@@ -21,18 +21,33 @@ body {
     margin-top: 30px;
     margin-bottom: 15px;
     border-radius: 50%;
+    box-shadow: -1px -2px 15px 3px rgba(232,225,225,0.75);
+    -webkit-box-shadow: -1px -2px 15px 3px rgba(232,225,225,0.75);
+    -moz-box-shadow: -1px -2px 15px 3px rgba(232,225,225,0.75);
 }
 .contenedor-img-perfil h1 {
-    font-weight: 700;
-    color: #B24592;
-    font-size: 20px;
+    color: #fc89c4;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 .contenedor-img-perfil h2 {
+    font-weight: 400;
+    color:#C88EA7;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.contenedor-img-perfil p {
     font-weight: 600;
-    color: #B24592;
-    font-size: 14px;
+    color: #C88EA7;
+    font-size: 16px;
     text-align: center;
-    width: 300px;
+    width: 360px;
+    line-height: 20px;
+    margin-bottom: 25px;
 }
 .contenedor-links {
     display: flex;
@@ -40,13 +55,13 @@ body {
     align-items: center;
 }
 .fav-btn {
-    background: #800080;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 width: 360px;
 height: 30px;
-font-size: 16px;
-color: #fdeff9;
+font-size: 18px;
+color: #fff;
 font-family: 'Raleway', sans-serif;
 font-weight: 500;
     border: none;
@@ -55,13 +70,6 @@ font-weight: 500;
     text-align: center;
     margin: 12px;
     border-radius: 10px;
-}
-.fav-btn:hover {
-    background: #A770EF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: 1px solid ;
-    transition: 0.5s;
 }
 .contenedor-links h2 {
     color: #38383d;
@@ -87,7 +95,7 @@ background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+
 width: 360px;
 height: 45px;
 font-size: 16px;
-color: #fdeff9;
+color: #fff;
 font-family: 'Raleway', sans-serif;
 font-weight: 500;
     border: none;
@@ -108,6 +116,13 @@ font-weight: 500;
     margin-right: 5px;
     height: 30px;
 }
+.contenedor-links p {
+    font-weight: 600;
+    color: #C88EA7;
+    font-size: 14px;
+    text-align: center;
+    width: 360px;
+}
 /*estilos iconos de redes*/
 .container-redes {
     margin-top: 40px;
@@ -120,7 +135,7 @@ font-weight: 500;
     width: 45px;
 }
 footer {
-    background-color: #fdeff9;
+    background-color: #fff;
     height: 50px;
     margin: 0;
     width: 100%;
